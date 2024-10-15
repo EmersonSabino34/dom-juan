@@ -360,3 +360,78 @@ a {
   cursor: pointer;
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
+
+/* Adicionar */
+
+.add-body {
+  background-color: #222;
+}
+
+.add-container, .form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: #3F3F3F;
+}
+
+.profisionais {
+  gap: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.profisionais button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.profisionais button i {
+  color: #3F3F3F;
+  font-size: 25px;
+}
+
+.profisionais img {
+  width: 190px;
+}
+
+.add {
+  width: 230px;
+  height: 31px;
+  
+  border: none;
+  outline: none;
+  border-radius: 20px;
+
+  font-size: 16px;
+  color: #FFF;
+  background-color: #367c2a;
+  
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add .header {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add .header div {
+  content: '';
+  height: 15px;
+  border-left: 2px solid #FFF;
+}
