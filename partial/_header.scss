@@ -48,6 +48,7 @@ i {
       border: 1px solid $red-light;
       background-color: $red-light;
 }
+// |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 .header-logo{
       width: 250px;
@@ -55,6 +56,33 @@ i {
       align-items: center;
       justify-content: center;
       margin-top: 14px;
+      position: relative;
+      animation: flutuar 1.6s ease-in-out infinite alternate;
+}
+
+#barbeiro{
+      left: 20px;
+      top: 250px;
+      position: fixed;
+      width: 100px;
+      border-radius: 20px;
+      display: none;
+}
+#barbeiroSumir{
+      left: 50px;
+      top: 20px;
+      position: fixed;
+      width: 80%;
+      border-radius: 20px;
+}
+
+@keyframes flutuar {
+      0% {
+            top: 0;
+      }
+      100% {
+            top: 30px;
+      }
 }
 
 @media screen and (max-width: 768px) {
