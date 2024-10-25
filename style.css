@@ -62,20 +62,11 @@ i {
 }
 
 #barbeiro {
-  left: 20px;
-  top: 250px;
-  position: fixed;
-  width: 100px;
-  border-radius: 20px;
   display: none;
 }
 
 #barbeiroSumir {
-  left: 50px;
-  top: 20px;
-  position: fixed;
-  width: 80%;
-  border-radius: 20px;
+  display: none;
 }
 
 @keyframes flutuar {
