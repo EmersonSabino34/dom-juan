@@ -1,4 +1,4 @@
-# 💈 Dom Juan Barber
+# 💈 Dom Juan Barber #
 
 Site institucional moderno para a **Barbearia Dom Juan**, desenvolvido com foco em **design elegante**, **animações suaves** e **alta conversão de clientes via WhatsApp**.
 
